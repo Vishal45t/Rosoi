@@ -1,0 +1,160 @@
+#container{
+   display:flex;
+   flex-direction:row;
+   height: 50px;
+   border-radius: 5px;
+   margin-top: 50px;
+   margin-left: 70px;
+}
+body{
+   background-image: url("https://getwallpapers.com/wallpaper/full/8/5/4/1392028-download-dark-background-images-3840x2160-for-android-50.jpg");
+   background-size: cover;
+   color:white;
+}
+li{
+   list-style-type: none;
+}
+#menu{
+   display:flex;
+   flex-direction: row;
+}
+.nav{
+   display:flex;
+   margin-left: 700px;
+}
+.nav li{
+   justify-content: space-between;
+   align-items: right;
+   margin-left:20px;
+   margin-right:20px;
+   font-size: 20px;
+   font-weight: bold;
+}
+h2{
+   margin-left:10px;
+}
+#content{
+   margin-top:130px;
+   margin-left: 70px;
+}
+#btn{
+   border:1px solid black;
+   height:40px;
+   width:100px;
+   background-color:orange;
+}
+#main{
+   float:right;
+   margin-top: 100px;
+   margin-right: 80px;
+}
+h3{
+   color:orangered;
+}
+a{
+   color:orangered;
+}
+#bar{
+   display:flex;
+   background-color: rgb(10, 47, 53);
+   width:100%;
+   margin-top:0;
+   border-radius:5px;
+}
+#bar2{
+   margin-left: 970px;
+}
+#para{
+   margin-left:5px;
+}
+#box{
+   margin-left:40px;
+   margin-top: 70px;
+}
+#box1{
+   display:flex;
+}
+#txt{
+   font-weight: bold;
+   margin-top: 50px;
+   margin-left: 40px;
+   color:white;
+}
+#btn2{
+   display:flex;
+   flex-direction: row;
+}
+#btn1{
+   margin-left:40px;
+   margin-right:40px;
+   margin-top: 20px;
+   width:90px;
+   height:30px;
+   border:1px solid white;
+   border-radius:30px;
+   box-shadow: 0 0.1rem 0.1rem 0.1rem white;
+   font-weight: bold;
+}
+#img2{
+   border:1px solid black;
+   border-radius: 15px;
+   box-shadow:  2px 2px 8px black;
+   transition: 0.3s;
+}
+#description{
+   font-weight: bold;
+   font-size: 22px;
+}
+.img3{
+   width:320px;
+   height:236px;
+}
+li:hover{
+   border:1px solid white;
+   border-radius: 5px;
+   height:30px;
+   cursor:pointer;
+}
+#btn1{
+   background-color: blueviolet;
+}
+#btn1:hover{
+   background-color: white;
+   cursor:pointer;
+}
+#footer{
+   height:200px;
+   background-color: rgb(0, 0, 0);
+}
+#footer2{
+   list-style-type: none;
+}
+#list3{
+   display:flex;
+   justify-content: center;
+}
+#img2:hover{
+   transition: transform 0.1s ease;
+   transform: scale(1.1);
+   cursor:pointer;
+   box-shadow: 2px 2px 16px black;
+}
+#bar3{
+   position:relative;
+}
+marquee{
+   color:orange;
+   font-size: 20px;
+}
+#btn:hover{
+   cursor:pointer;
+}
+#main:hover{
+   transition: transform 1.5s ease;
+   transform: rotate(360deg);
+   cursor:pointer;
+
+}
+ 
+ 
+ 
